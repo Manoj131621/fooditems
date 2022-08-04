@@ -5,14 +5,13 @@ import { Cart } from '../Context'
 
 const CartOrders = () => {
   const [total, setTotal] = useState();
-
+  const { cart } = useContext(Cart);
   useEffect(() => {
     setTotal(cart.reduce((acc, curr) => acc + Number(curr.price), 0));
-  }, []);
-
-  const { cart } = useContext(Cart);
+  }, [cart]);
   return (
     <div>
+      
       <Header />
       <div className='container'>
         <div className="d-flex flex-wrap">
