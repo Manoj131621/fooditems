@@ -8,7 +8,7 @@ const Ordercountbutton = ({orderCount}) => {
   return (
     <div className='btnOrderCount'>
             <div className='count'>{orderCount>=100?'99+':orderCount}</div>
-            <button class='btncount'  onClick={()=>navigate('/CartOrders')}>CHECKOUT{cart.length}</button>
+            <button class='btncount'  onClick={()=>navigate('/CartOrders')}>CHECKOUT-{cart.length}</button>
     </div>
   )
 }

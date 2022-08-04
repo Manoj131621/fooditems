@@ -5,11 +5,10 @@ import Ordercountbutton from './Ordercountbutton'
 const Footer = () => {
   return (
     <div class='footer'>
-      <div class="d-flex container">
-        <p>
-            Check Order
-        </p>
+      <div class="container">
+        <div className='d-flex flex-wrap justify-content-center'>
         <Ordercountbutton/>
+        </div>
         </div>
     </div>
   )
