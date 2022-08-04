@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.menuIcon{
+  color: white;
+  font-size: 30px;
+  /* gap: 1rem; */
+}
+.menuIcon2{
+  color: #FFC107;
+  font-size: 30px;
+  /* gap: 1rem; */
+}
+.btnAddRemove{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: orange;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  /* background-color: #000; */
+  color: #000;
+}
+.btnAddRemove-negative,.btnAddRemove-positive{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer{
+  border-top: 1px solid #000;
+  margin-top: 0 rem;
+  padding: 2rem 0
+}
+.btncount{
+  /* display: flex; */
+  align-items: right;
+  justify-content: center;
+  width: 120px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: orange;
+  padding: 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  /* background-color: #000; */
+  color: #000;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
